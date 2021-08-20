@@ -12,7 +12,6 @@ import javax.persistence.*;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "COURSE",schema = "COURSE_MANAGER")
 public class Course {
 
     @Id
