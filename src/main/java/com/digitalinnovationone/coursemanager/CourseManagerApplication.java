@@ -18,7 +18,7 @@ public class CourseManagerApplication {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/api/v1/course").allowedOrigins("*");
+                registry.addMapping("/api/v1/**").allowedOrigins("*");
             }
         };
     }
